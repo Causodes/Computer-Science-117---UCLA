@@ -1,0 +1,28 @@
+\documentclass[titlepage]{article}
+\usepackage{graphicx}
+\usepackage[tbtags]{amsmath}
+
+\begin{document}
+
+\title{Data Transmission over 802.11b Wireless LAN Laboratory 1}
+\author{Tian Ye \\ \\ UID: 704931660 \\ \\ Discussion 1B}
+\date{October 16th, 2018}
+
+\maketitle
+
+\section{Observation}
+This lab explores the effects of both distance and microwave interference on WiFi signal strength using both UDP and TCP data packets over 802.11b. There was an apparent inverse relation between signal strength and distance from the host; the greater the distance, the weaker the signal. The exact amount of microwave interference however was not measureable, but there was a noticable decrease in signal strength as well when the microwave was turned onto its various settings. \\
+
+\section*{Goals}
+\subsection*{1}
+Observe the relationship between microwave signal strength and the signal strength experienced by a client communicating with a server.
+\subsection*{2}
+Observe the relationship between distance between client and server and the signal strength experienced by a client communicating with that server.
+
+\section*{Results}
+\subsection*{1}
+The relationship clearly decreases with respect to microwave signal strength: as microwave signal strength increases the wireless signal strength decreases
+\subsection*{2}
+The relationship decreases with respect to distance from the host: as distance increases, the wireless signal decreases in accordance with the inverse square law of $\frac{1}{r^2}$
+
+\end{document}
